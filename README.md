@@ -8,6 +8,6 @@ If you're not comfortable with Github, you can discuss your ideas for open data 
 There are 4 help pages:
 
 - [Introduction](http://queensland.theodi.org/home/services/certificates/help/) (not managed here).
-- [Rights](http://queensland.theodi.org/home/services/certificates/help/rights/) ((code rights.html)[https://github.com/ODIQueensland/open-data-certificate-help/blob/master/rights.html])
-- [Licencing](http://queensland.theodi.org/home/services/certificates/help/licensing/) ((code licensing.html)[https://github.com/ODIQueensland/open-data-certificate-help/blob/master/licensing.html])
-- [Privacy](http://queensland.theodi.org/home/services/certificates/help/privacy/) ((code privacy.html)[https://github.com/ODIQueensland/open-data-certificate-help/blob/master/privacy.html])
+- [Rights](http://queensland.theodi.org/home/services/certificates/help/rights/) (code [rights.html](https://github.com/ODIQueensland/open-data-certificate-help/blob/master/rights.html))
+- [Licencing](http://queensland.theodi.org/home/services/certificates/help/licensing/) (code [licensing.html](https://github.com/ODIQueensland/open-data-certificate-help/blob/master/licensing.html))
+- [Privacy](http://queensland.theodi.org/home/services/certificates/help/privacy/) (code [privacy.html](https://github.com/ODIQueensland/open-data-certificate-help/blob/master/privacy.html))
