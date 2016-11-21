@@ -45,12 +45,12 @@ Each of the above components are formatted in a specific way. Some of these may 
 ### Question text
 
 Add a horizontal line with an id so when the internal link is followed the Question text appears at the top of the page.
-Add strong to <h2>. Yes, I know, CSS, but constraints :-(
+Add strong to `<h2>`. Yes, I know, CSS, but constraints :-(
 
     <hr id="publisherrights" />
     &nbsp;
     <h2><strong>1. Do you have the rights to publish this data as open data?</strong></h2>
-You should have a clear legal <a href="/glossary#rights">right</a> to publish this data. If your organisation didn't originally create or gather this data then you might not have the right to publish it. If you’re not sure, check with the <a href="/glossary#rights-holder">rights holder</a> (owner) because you will need their permission to publish it.
+    You should have a clear legal <a href="/glossary#rights">right</a> to publish this data. If your organisation didn't originally create or gather this data then you might not have the right to publish it. If you’re not sure, check with the <a href="/glossary#rights-holder">rights holder</a> (owner) because you will need their permission to publish it.
 
 ### Question description
 
