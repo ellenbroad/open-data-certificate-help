@@ -1,0 +1,93 @@
+/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+@media print {
+	#colophon, #footer-widgets, .navbar-right, .menu-menu-1-container, #nav-below, #pgc-176-0-1, #panel-7-3-0-0, .youtube-player, .fluid-width-video-wrapper, #main-slider {
+		display: none;
+	}
+
+	img {
+		page-break-inside: avoid;
+		page-break-after: avoid;
+	}
+
+	blockquote, table, pre {
+		page-break-inside: avoid;
+	}
+
+	ul, ol, dl {
+		page-break-before: avoid;
+	}
+}
+
+/* W3c style callout boxes */
+div.example {
+	padding: .5em;
+	border-left-width: .5em;
+	border-left-style: solid;
+	border-color: #e0cb52;
+	background: #fcfaee;
+}
+
+div.issue, div.note, div.ednote, div.warning {
+	padding: 1em 1.2em .5em;
+	margin: 1em 0;
+	position: relative;
+	clear: both;
+}
+
+div.note, div.issue, div.ednote, div.warning {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.note, .ednote {
+	border-color: #52e052;
+	background: #e9fbe9;
+}
+
+.warning {
+	border-color: #e05252;
+	background: #fbe9e9;
+}
+
+div.warning-title {
+	color: #e05252;
+}
+
+div.note-title, div.ednote-title {
+	color: #2b2;
+}
+
+.issue, .note, .ednote, .warning {
+	padding: .5em;
+	border-left-width: .5em;
+	border-left-style: solid;
+}
+
+div.example-title {
+	min-width: 7.5em;
+	color: #b9ab2d;
+}
+
+div.quote {
+	padding: .5em;
+	border-left-width: .5em;
+	border-left-style: solid;
+	border-color: #ccc;
+	background: #f9f9f9;
+	font-style: italic;
+	font-family: serif;
+}
+
+/* narrow top menu*/
+.main-navigation ul li a {
+	padding: 12px 29px;
+}
+
+.site-navigation {
+	background: #f9f9f9;
+	border-bottom: 1px solid #dddddd;
+}
