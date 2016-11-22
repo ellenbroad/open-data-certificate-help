@@ -14,35 +14,37 @@ There are 4 help pages:
 
 ## Components
 
-The open data certificate questionnaire is made up of a number of components. Some of these are repeated in this help.
+The open data certificate help pages contained here are made up of a number of components.
 
 ### Question
 
+Repeated from the online questionnaire.
+
 1. Question text
-2. Question description
-3. Question help (as shown in the questionnaire)
+2. Question description (optional)
 
 ### Answers
 
-For each possible answer to a question:
+Repeated from the online questionnaire.
 
 1. Answer text
-2. Answer description
-3. Answer help
-4. What question to ask next if this answer is selected
+2. Answer description (optional)
+3. What question to ask next if this answer is selected
 
 ### Extra Help
 
-The extra help can contain:
+Each question in the survey can contain a link to extra guidance outside the questionnaire:
 
 1. Guidance text
 2. Examples
 
 ## Formatting
 
-Each of the above components are formatted in a specific way. Some of these may appear strange from a normal html formatting approach but there are a set of constraints imposed by using Wordpress and a site we're not in complete control of that cause these.
+Each of the above components are formatted in a specific way. Examples are shown below. Some of these may appear strange from a normal html formatting approach but there are a set of constraints imposed by using a Wordpress site that we don't have full administration rights to.
 
 ### Question text
+
+This text should match the online questionnaire.
 
 Add a horizontal line with an id so when the internal link is followed the Question text appears at the top of the page.
 Add strong to `<h2>`. Yes, I know, CSS, but constraints :-(
@@ -50,18 +52,29 @@ Add strong to `<h2>`. Yes, I know, CSS, but constraints :-(
     <hr id="publisherrights" />
     &nbsp;
     <h2><strong>1. Do you have the rights to publish this data as open data?</strong></h2>
-    You should have a clear legal <a href="/glossary#rights">right</a> to publish this data. If your organisation didn't originally create or gather this data then you might not have the right to publish it. If you’re not sure, check with the <a href="/glossary#rights-holder">rights holder</a> (owner) because you will need their permission to publish it.
 
 ### Question description
 
-### Question help
+This text should match the online questionnaire. The text doesn't need to be wrapped in `<p> </p>` as Wordpress applies these automatically. Add links to the glossary as required.
+
+    You should have a clear legal <a href="/glossary#rights">right</a> to publish this data. If your organisation didn't originally create or gather this data then you might not have the right to publish it. If you’re not sure, check with the <a href="/glossary#rights-holder">rights holder</a> (owner) because you will need their permission to publish it.
+
+### Answer text
+
+    <h5>Yes</h5>
 
 ### Answer description
 
-### Answer help
+    You have the right to publish the data as open data if you collected all the data yourself.
 
-### What question to ask next if this answer is selected
+### What question is asked next
+
+The `title` is the wording of the next question.
+
+    <p align="right"><a title="Was all this data originally created or gathered by you?" href="#publisherorigins">Next: Question 2</a></p>
 
 ### Guidance text
+
+
 
 ### Examples
