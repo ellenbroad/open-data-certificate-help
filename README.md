@@ -35,7 +35,7 @@ Repeated from the online questionnaire.
 
 ### Extra Help
 
-Each question in the survey can contain a link to extra guidance outside the questionnaire:
+Each question in the survey can contain a link to extra guidance found inside these help pages. This extra guidance is formatted to make it stand out from the elements copied from the questionnaire.
 
 
 ## Formatting
@@ -47,7 +47,7 @@ Each of the above components are formatted in a specific way. Examples are shown
 This text should match the online questionnaire.
 
 Add a horizontal line with an id so when the internal link is followed the Question text appears at the top of the page.
-Add strong to `<h2>`. Yes, I know, CSS, but constraints :-(
+Add strong to `<h2>` (see #1)
 
     <hr id="publisherrights" />
     &nbsp;
@@ -60,6 +60,7 @@ This text should match the online questionnaire. The text doesn't need to be wra
     You should have a clear legal <a href="/glossary#rights">right</a> to publish this data. If your organisation didn't originally create or gather this data then you might not have the right to publish it. If you’re not sure, check with the <a href="/glossary#rights-holder">rights holder</a> (owner) because you will need their permission to publish it.
 
 ### Answer text
+(see #2)
 
     <h5>Yes</h5>
 
