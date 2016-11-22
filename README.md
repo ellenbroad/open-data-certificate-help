@@ -12,6 +12,8 @@ There are 4 help pages:
 - [Licencing](http://queensland.theodi.org/home/services/certificates/help/licensing/) (code [licensing.html](https://github.com/ODIQueensland/open-data-certificate-help/blob/master/licensing.html))
 - [Privacy](http://queensland.theodi.org/home/services/certificates/help/privacy/) (code [privacy.html](https://github.com/ODIQueensland/open-data-certificate-help/blob/master/privacy.html))
 
+They are structured to mimic the online questionnaire so they could be used for training as well as supporting people completing the questionnaire.
+
 ## Components
 
 The open data certificate help pages contained here are made up of a number of components.
@@ -35,8 +37,6 @@ Repeated from the online questionnaire.
 
 Each question in the survey can contain a link to extra guidance outside the questionnaire:
 
-1. Guidance text
-2. Examples
 
 ## Formatting
 
@@ -73,8 +73,16 @@ The `title` is the wording of the next question.
 
     <p align="right"><a title="Was all this data originally created or gathered by you?" href="#publisherorigins">Next: Question 2</a></p>
 
-### Guidance text
+### Help text
 
+This is the text that provides the extra help or links to resources. There are some different classes that adjust the formatting:
 
+- `note` and `note-title` are used to wrap the text in a green box
+- `example` and `example-title` are used to wrap the text in a yellow box
+- `warning` and `warning-title` are used to wrap the text in a red box
 
-### Examples
+    <div class="note">
+    <div class="note-title">Note</div>
+    If you are unsure, the Open Data Certificate questionnaire will lead you through a series of questions to help you determine if you have the rights to publish this data. It will ask if all the data was gathered by you and if not, what were the sources of the data and if they are openly licensed.
+
+    </div>
