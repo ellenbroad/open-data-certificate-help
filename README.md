@@ -86,3 +86,11 @@ This is the text that provides the extra help or links to resources. There are s
     If you are unsure, the Open Data Certificate questionnaire will lead you through a series of questions to help you determine if you have the rights to publish this data. It will ask if all the data was gathered by you and if not, what were the sources of the data and if they are openly licensed.
 
     </div>
+
+## The questionnaire
+
+The Australian questionnaire is being drafted at https://github.com/Stephen-Gates/open-data-certificate/blob/staging/prototype/jurisdictions/certificate.AU.xml
+
+Once complete is will be merged into [Staging](https://github.com/theodi/open-data-certificate/blob/staging/prototype/jurisdictions/certificate.AU.xml).
+
+And eventually [Production](https://github.com/theodi/open-data-certificate/blob/master/prototype/jurisdictions/certificate.AU.xml).
