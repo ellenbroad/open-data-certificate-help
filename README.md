@@ -95,3 +95,26 @@ The Australian questionnaire is being drafted at https://github.com/Stephen-Gate
 Once complete is will be merged into [Staging](https://github.com/theodi/open-data-certificate/blob/staging/prototype/jurisdictions/certificate.AU.xml).
 
 And eventually [Production](https://github.com/theodi/open-data-certificate/blob/master/prototype/jurisdictions/certificate.AU.xml).
+
+## Answering questions automatically
+If your data is published in a CKAN portal, some questions should have been automatically answered by reading the metadata available via the CKAN API. The following CKAN fields are read by Data Kitten to attempt to answer questions automatically
+
+- title
+- description
+- publishers
+- maintainers
+- contributors
+- rights
+- licenses
+- update_frequency
+- keywords
+- issued
+- modified
+- temporal
+- distributions
+- title
+- description
+- access_url
+- extension
+- open
+- structured
