@@ -5,21 +5,27 @@
 In the Licensing section of the Open Data Certificate questionnaire, you may answer one or more questions that are progressively shown based on this <a href="http://queensland.odinodes.wpengine.com/wp-content/uploads/sites/11/2016/02/certificate-licensing-flowchart-2016-02-251.pdf" target="_blank">flowchart</a>.
 <ol>
  	<li><a href="#copyrightURL">Where have you published the rights statement for this dataset?</a></li>
- 	<li><a href="#contentRights">Is there copyright in this data?</a></li>
- 	<li><a href="#explicitWaiver">Is the data marked as Public Domain?</a></li>
- 	<li><a href="#contentRightsURL">Where are the rights and licencing of third-party data explained?</a></li>
- 	<li><a href="#dataLicence">Under which licence or waiver can people reuse this data?</a></li>
- 	<li><a href="#otherDataLicenceName">What is the name of the licence?</a></li>
- 	<li><a href="#otherDataLicenceURL">Where is the licence?</a></li>
+  <li><a href="#dataLicence">Under which licence or waiver can people reuse this data?</a></li>
+  <li><a href="#otherDataLicenceName">What is the name of the licence?</a></li>
+  <li><a href="#otherDataLicenceURL">Where is the licence?</a></li>
  	<li><a href="#otherDataLicenceOpen">Is the licence an open licence?</a></li>
+  <li><a href="#6">Why doesn't a licence apply to this data?</a></li>
+  <li><a href="#7">Which waiver do you use to waive the copyright?</a></li>
+ 	<li><a href="#otherDataWaiverURL">Where is the waiver?</a></li>
+  <li><a href="#explicitWaiver">Is the data marked as Public Domain?</a></li>
+  <li><a href="#10">Is there any third-party data included in your data?</a></li>
+ 	<li><a href="#contentRightsURL">Where are the rights and licencing of third-party data explained?</a></li>
  	<li><a href="#copyrightStatementMetadata">Do you have a machine-readable rights statement?</a></li>
 </ol>
-
 
 <h2 class="question" id="copyrightURL">1. Where have you published the rights statement for this dataset?</h2>
 Give the URL to a page that describes the right to re-use this dataset. This should include a reference to its <a href="http://queensland.theodi.org/home/glossary/#licence">license</a> or copyright <a href="http://queensland.theodi.org/home/glossary/#waiver">waiver</a>, <a href="http://queensland.theodi.org/home/glossary/#attribution">attribution </a>requirements, and a statement about relevant copyright. A rights statement helps people understand what they can and can't do with the data.
 <h3 class="answer">Copyright URL</h3>
 You should publish a rights statement that details copyright, licensing and how people should give attribution to the data.
+<div class="next">
+  <a title="Under which licence or waiver can people reuse this data?" href="#dataLicence">Next: Question 2</a>
+</div>
+
 <div class="example">
 <div class="example-title">Example</div>
 If your data is published on a web page, consider using the <a href="http://creativecommons.org/choose/">Creative Commons Licence Chooser</a> or the <a title="Creative Commons public domain mark chooser" href="http://creativecommons.org/choose/mark/">Public Domain Mark Chooser</a> to generate a rights statement and place it on the web page where your data can be accessed. These tools can generate both a human‑readable and machine‑readable rights statement. E.g.
@@ -55,95 +61,89 @@ If your data is published in a CKAN portal, this question should have been autom
 <div class="note-title">Note</div>
 This rights statement applies to the whole dataset. If your data includes third-party data then you should also provide a statement about the third-party copyrights nested within the dataset.
 
-</div>
-<div class="next"><a title="Is there any copyright in the data?" href="#contentRights">Next: Question 2</a></div>
-
-<h2 class="question" id="contentRights">2. Is there any copyright in the data?</h2>
-<h3 class="answer">No, the data only contains facts and numbers, or copyright has expired</h3>
-There is no copyright in factual information. If the data does not contain any content that was created through intellectual effort, there are no rights in the content.
-<div class="note">
-<div class="note-title">Note</div>
-Copyright only applies to data if you spent intellectual effort creating what's in it, for example, by writing text that's within the data, or deciding whether particular data is included. There's no copyright if the data only contains facts where no judgements were made about whether to include them or not.
-
-<hr />
-
-Copyright vests (is considered to exist) immediately upon creation of a work, and expires 70 years after the death of the author. (<a href="http://queensland.odinodes.wpengine.com/home/glossary#crown-copyright">Crown copyright</a> has a different duration).
-
-Source: <a href="http://ands.org.au/guides/copyright-and-data-awareness.html">Copyright, Data and Licensing</a> by <a href="http://ands.org.au/">Australian National Data Service</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/au/deed.en">CC BY 3.0 AU</a>.
-</div>
-<div class="next">
-  <a title="Is the data marked as Public Domain?" href="#explicitWaiver">Next: Question 3</a>
-</div>
-
-<h3 class="answer">Yes, and the rights are all held by the same person or organisation</h3>
-Choose this option if the content in the data was all created by or transferred to the same person or organisation.
-<div class="next">
-  <a href="#dataLicence">Next: Question 5</a>
-</div>
-
-<h3 class="answer">Yes, and the rights are held by different people or organisations</h3>
-In some data, the rights in different records are held by different people or organisations. Information about rights needs to be kept in the data too.
-<div class="note">
-<div class="note-title">Note</div>
-In some data, the rights in different records are held by different people or organisations. Where these nested rights carry different restrictions, the dataset will inherit, in total, the most restrictive of the nested restrictions. For example, if two nested elements of data are licensed CC-BY and CC-BY-NC, the entire dataset will need to be licensed CC-BY-NC, which by definition would prevent it from being ‘open’ data. There may be an exception to this rule if the user can clearly identify the nested data elements and the restrictions that apply to them.
-
-(To do: Provide an example how)
-</div>
-<div class="next">
-  <a href="#contentRightsURL">Next: Question 4</a>
-</div>
-
-<h2 class="question"  id="explicitWaiver">3. Is the data marked as Public Domain?</h2>
-Works in the public domain are those whose intellectual property rights have expired, have been forfeited, or are inapplicable. If none of the content of your data have copyright or other rights over it, it is good practice to explicitly state this by labelling it as ‘public domain’. You can do this by using the <a href="http://creativecommons.org/publicdomain/">Creative Commons Public Domain Mark</a> or a <a href="http://www.ausgoal.gov.au/no-copyright">no known rights statement</a>.
-<div class="ednote">
-<div class="ednote-title">Editor's Note</div>
-Creative Common at https://creativecommons.org/about/pdm/ seems to emphasise using PDM for works with expired copyright or already in the public domain. Is this mark appropriate for adding to raw data collected from sensors?
-</div>
-<h3 class="answer">Yes</h3>
-<div class="next">
-  <a title="Privacy" href="http://queensland.theodi.org/home/services/certificates/help/privacy/">Next: Privacy Questions</a>
-</div>
-
-<h3 class="answer">No</h3>
-<div class="next">
-  <a title="Privacy" href="http://queensland.theodi.org/home/services/certificates/help/privacy/">Next: Privacy Questions</a>
-</div>
-
-
-<h2 class="question" id="contentRightsURL">4. Where are the rights and licencing of third-party data explained?</h2>
-Give the URL for a page where you describe how someone can find out the rights and licensing of third-party data nested within the dataset.
-<div class="next">
-  <a title="Under which licence or waiver can people reuse this data?" href="#dataLicence">Next: Question 5</a>
-</div>
-
-<h2 class="question" id="dataLicence">5. Under which licence or waiver can people reuse this data?</h2>
+<h2 class="question" id="dataLicence">2. Under which licence or waiver can people reuse this data?</h2>
 Remember that whoever spends intellectual effort creating content automatically gets rights over it. Creative content includes the organisation and selection of items within data, but does not include facts. You need to provide a waiver or a licence which informs people how they can legally use the data.
 
 We list the most common licenses used in Australia.
 <h3 class="answer">Creative Commons Attribution</h3>
 <div class="note">
 <div class="note-title">Note</div>
-Whilst the version is not specified in the questionnaire we recommend <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution v4.0</a>.
-
+Whilst the version is not specified in the questionnaire, we recommend <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution v4.0</a>.
 View <a href="http://goo.gl/zWScQ9">AusGoal's comparision of Creative Commons v3.0 and v4.0 licences</a>.
-
 </div>
 <div class="next">
-  <a title="Do you have a machine-readable rights statement?" href="#copyrightStatementMetadata">Next: Question 9</a>
+  <a title="Is there any third-party data included in your data?" href="#10">Next: Question 10</a>
 </div>
-
 <h3 class="answer">Creative Commons Attribution Share-Alike</h3>
 <div class="note">
 <div class="note-title">Note</div>
 Whilst the version is not specified in the questionnaire we recommend <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution Share-Alike</a>.
-
 View <a href="http://goo.gl/zWScQ9">AusGoal's comparision of Creative Commons v3.0 and v4.0 licences</a>.
-
 </div>
 <div class="next">
-  <a title="Do you have a machine-readable rights statement?" href="#copyrightStatementMetadata">Next: Question 9</a>
+  <a title="Is there any third-party data included in your data?" href="#10">Next: Question 10</a>
+</div>
+<h3 class="answer">Other Licence</h3>
+Choose this if you are using a licence not listed above.
+<div class="next">
+  <a title="What is the name of the licence?" href="#otherDataLicenceName">Next: Question 3</a>
+</div>
+<h3 class="answer">Not Applicable</h3>
+Choose this if there is no copyright in the data, the copyright has expired, or you waive your copyright.
+<div class="next">
+  <a title="Why doesn't a licence apply to this data?" href="#6">Next: Question 6</a>
 </div>
 
+<h2 class="question" id="otherDataLicenceName" >3. What is the name of the licence?</h2>
+If you use a different licence, we need its name so people can see it on your Open Data Certificate.
+<div class="next">
+  <a title="Where is the licence?" href="#otherDataLicenceURL">Next: Question 4</a>
+</div>
+
+<h2 class="question" id="otherDataLicenceURL">4. Where is the licence?</h2>
+Give a URL to the licence, so people can see it on your Open Data Certificate and check that it's publicly available.
+<div class="next">
+  <a title="Is the licence an open licence?" href="#otherDataLicenceOpen">Next: Question 5</a>
+</div>
+
+<h2 class="question" id="otherDataLicenceOpen">5. Is the licence an open licence?</h2>
+If you aren't sure what an open licence is, then read the <a href="http://opendefinition.org/">Open Definition</a> by <a href="http://okfn.org/">Open Knowledge</a>. Review the <a href="http://opendefinition.org/licenses/">Open Definition Conformant Licences</a> to check if your licence is open. If your licence isn't listed, it's either not open or hasn't been assessed yet.
+<h3 class="answer">Yes</h3>
+Answer, "Yes" if your licence is listed as open on the <a href="http://opendefinition.org/licenses/">Open Definition Conformant Licences</a> list.
+<div class="next">
+  <a title="Is there any third-party data included in your data?" href="#10">Next: Question 10</a>
+</div>
+<h3 class="answer">No</h3>
+You must publish open data under an open licence so that people can use it.
+<div class="next">
+  <a title="" href="http://queensland.theodi.org/home/services/certificates/help/negative-ending/">End</a>
+</div>
+
+<h2 class="question" id="6" >6. Why doesn't a licence apply to this data?</h2>
+<h3 class="answer">There is no copyright in the data</h3>
+There is no copyright in factual information. If the data does not contain any content that was created through intellectual effort, there are no rights in the content.
+<div class="note">
+<div class="note-title">Note</div>
+Copyright only applies to data if you spent intellectual effort creating what's in it, for example, by writing text that's within the data, or deciding whether particular data is included. There's no copyright if the data only contains facts where no judgements were made about whether to include them or not.
+<div class="next">
+  <a title="Is the data marked as Public Domain?" href="#explicitWaiver">Next: Question 9</a>
+</div>
+<h3 class="answer">The copyright has expired</h3>
+<div class="note">
+<div class="note-title">Note</div>
+Copyright vests (is considered to exist) immediately upon creation of a work, and expires 70 years after the death of the author. (<a href="http://queensland.odinodes.wpengine.com/home/glossary#crown-copyright">Crown copyright</a> has a different duration).
+
+Source: <a href="http://ands.org.au/guides/copyright-and-data-awareness.html">Copyright, Data and Licensing</a> by <a href="http://ands.org.au/">Australian National Data Service</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/au/deed.en">CC BY 3.0 AU</a>.
+</div>
+<div class="next">
+  <a title="Is the data marked as Public Domain?" href="#explicitWaiver">Next: Question 9</a>
+</div>
+<h3 class="answer">The copyright has been waived</h3>
+<div class="next">
+  <a title="Where is the waiver?" href="#7">Next: Question 7</a>
+</div>
+
+<h2 class="question" id="7">7. Under which waiver can people reuse this data?</h2>
 <h3 class="answer">CC0</h3>
 https://creativecommons.org/publicdomain/zero/1.0/
 <div class="note">
@@ -159,44 +159,57 @@ You may like to consider using a Creative Commons Attribution licence and waive 
 ODI Queensland waives the requirements of attribution under this licence, for this data.</em></blockquote>
 </div>
 <div class="next">
-  <a title="Do you have a machine-readable rights statement?" href="#copyrightStatementMetadata">Next: Question 9</a>
+  <a title="" href="#10">Next: Question 10</a>
 </div>
-
-<h3 class="answer">Other Licence</h3>
-Choose this if you are using a licence not listed above.
+<h3 class="answer">Other waiver</h3>
 <div class="next">
-  <a title="What is the name of the licence?" href="#otherDataLicenceName">Next: Question 6</a>
+  <a title="" href="#otherDataWaiverURL">Next: Question 8</a>
 </div>
 
-
-<h2 class="question" id="otherDataLicenceName" >6. What is the name of the licence?</h2>
-If you use a different licence, we need its name so people can see it on your Open Data Certificate.
+<h2 class="question" id="otherDataWaiverURL">8. Where is the waiver?</h2>
+Give a URL to the waiver, so people can see it on your Open Data Certificate and check that it's publicly available.
 <div class="next">
-  <a title="Where is the licence?" href="#otherDataLicenceURL">Next: Question 7</a>
+  <a title="?" href="#10">Next: Question 10</a>
 </div>
 
-<h2 class="question" id="otherDataLicenceURL">7. Where is the licence?</h2>
-Give a URL to the licence, so people can see it on your Open Data Certificate and check that it's publicly available.
-<div class="next">
-  <a title="Is the licence an open licence?" href="#otherDataLicenceOpen">Next: Question 8</a>
+<h2 class="question"  id="explicitWaiver">9. Is the data marked as Public Domain?</h2>
+Works in the public domain are those whose intellectual property rights have expired, have been forfeited, or are inapplicable. If none of the content of your data have copyright or other rights over it, it is good practice to explicitly state this by labelling it as ‘public domain’. You can do this by using the <a href="http://creativecommons.org/publicdomain/">Creative Commons Public Domain Mark</a> or a <a href="http://www.ausgoal.gov.au/no-copyright">no known rights statement</a>.
+<div class="ednote">
+<div class="ednote-title">Editor's Note</div>
+Creative Common at https://creativecommons.org/about/pdm/ seems to emphasise using PDM for works with expired copyright or already in the public domain. Is this mark appropriate for adding to raw data collected from sensors?
 </div>
-
-<h2 class="question" id="otherDataLicenceOpen">8. Is the licence an open licence?</h2>
-If you aren't sure what an open licence is, then read the <a href="http://opendefinition.org/">Open Definition</a> by <a href="http://okfn.org/">Open Knowledge</a>. Review the <a href="http://opendefinition.org/licenses/">Open Definition Conformant Licences</a> to check if your licence is open. If your licence isn't listed, it's either not open or hasn't been assessed yet.
 <h3 class="answer">Yes</h3>
-Answer, "Yes" if your licence is listed as open on the <a href="http://opendefinition.org/licenses/">Open Definition Conformant Licences</a> list.
 <div class="next">
-  <a title="Do you have a machine-readable rights statement?" href="#copyrightStatementMetadata">Next: Question 9</a>
+  <a title="Privacy" href="http://queensland.theodi.org/home/services/certificates/help/privacy/">Next: Privacy Questions</a>
 </div>
+<h3 class="answer">No</h3>
+<div class="next">
+  <a title="Privacy" href="http://queensland.theodi.org/home/services/certificates/help/privacy/">Next: Privacy Questions</a>
+</div>
+
+<h2 class="question" id="10">10. Is there any third-party data included in your data?</h2>
+In some data, the rights in different records are held by different people or organisations. Where these nested rights carry different restrictions, the dataset will inherit, in total, the most restrictive of the nested restrictions.
+
+For example, if two nested elements of data are licensed CC-BY and CC-BY-NC, the entire dataset will need to be licensed CC-BY-NC, which by definition would prevent it from being ‘open’ data. There may be an exception to this rule if the user can clearly identify the nested data elements and the restrictions that apply to them.
 
 <h3 class="answer">No</h3>
-You must publish open data under an open licence so that people can use it.
 <div class="next">
-  <a title="" href="http://queensland.theodi.org/home/services/certificates/help/negative-ending/">End</a>
+  <a title="Do you have a machine-readable rights statement?" href="#copyrightStatementMetadata">Next: Question 12</a>
+</div>
+<h3 class="answer">Yes</h3>
+<div class="next">
+  <a title="Where are the rights and licencing of third-party data explained?" href="#contentRightsURL">Next: Question 11</a>
 </div>
 
 
-<h2 class="question" id="copyrightStatementMetadata">9. Do you have a machine-readable rights statement?</h2>
+
+<h2 class="question" id="contentRightsURL">11. Where are the rights and licencing of third-party data explained?</h2>
+Give the URL for a page where you describe how someone can find out the rights and licensing of third-party data nested within the dataset.
+<div class="next">
+  <a title="Do you have a machine-readable rights statement?" href="#copyrightStatementMetadata">Next: Question 12</a>
+</div>
+
+<h2 class="question" id="copyrightStatementMetadata">12. Do you have a machine-readable rights statement?</h2>
 It's good practice to embed information about rights in machine-readable formats so people can automatically attribute this data back to you when they use it. Read the <a href="http://theodi.org/guides/publishers-guide-to-the-open-data-rights-statement-vocabulary">Publisher's Guide to the Open Data Rights Statement Vocabulary</a> to find out how.
 <h3 class="answer">Data Licence</h3>
 Data Licence
@@ -210,11 +223,12 @@ Copyright Notice
 Copyright Year
 <h3 class="answer">Copyright Holder</h3>
 Copyright Holder
+
 <div class="ednote">
 <div class="edm=note-title">Editor's note</div>
 Contrast:
 <ul>
- 	<li>the <a href="http://creativecommons.org/choose/">Creative Commons Licence Chooser</a> , and</li>
+ 	<li>the <a href="http://creativecommons.org/choose/">Creative Commons Licence Chooser</a>, and</li>
  	<li>the Open Data Rights Statement.</li>
 </ul>
 </div>
