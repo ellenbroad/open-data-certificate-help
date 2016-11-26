@@ -1,5 +1,5 @@
 <a href="http://queensland.theodi.org/home/services/certificates/help/"><img class="alignright wp-image-338 size-medium" title="back to help home" src="http://queensland.odinodes.wpengine.com/wp-content/uploads/sites/11/2016/01/certificate-colourburst-72-K-1200px1-300x286.png" alt="back to help home" width="300" height="286" /></a>
-<p style="font-size: 80%"><a href="http://queensland.odinodes.wpengine.com/home/services/certificates/">Open Data Certificates</a> → <a title="back to help home" href="http://queensland.odinodes.wpengine.com/home/services/certificates/help/">Help</a> → Privacy</p>
+<p class="breadcrumb"><a href="http://queensland.odinodes.wpengine.com/home/services/certificates/">Open Data Certificates</a> → <a title="back to help home" href="http://queensland.odinodes.wpengine.com/home/services/certificates/help/">Help</a> → Privacy</p>
 
 <h2>How do you protect people's privacy?</h2>
 In the Privacy section of the Open Data Certificate questionnaire, you answer questions about the data you have published. Using your answers, further questions are asked based on this <a title="coming soon" target="_blank">flowchart</a>.
@@ -17,7 +17,29 @@ In the Privacy section of the Open Data Certificate questionnaire, you answer q
 
 <hr />
 
+<h2 class="question" id="dataPersonal">1. Is this data about people or their activities?</h2>
+<h3 class="answer">No, the data is not about people or their activities</h3>
+Data that is not about people or their activies is not subject to privacy law. Check that your data is not another type of <a href="#sensitiveData">sensitive data</a>.
+<div class="next">
+  <a href="http://queensland.theodi.org/home/services/certificates/help/positive-ending/">Next: End of Legal Questions</a>
+</div>
+
+<h3 class="answer">Yes, the data is about people or their activities</h3>
+Data about people or their activies may be subject to <a href="#privacyLaw">privacy law</a>.
+<div class="next">
+  <a title="Has the data about individuals been de-identified?" href="#dataDeidentified">Next: Question 2</a>
+</div>
+
 <div class="note">
+<div class="note-title">Personal Information Resources</div>
+These Guides can help you determine if the data is personal information:
+<ul>
+ 	<li><a href="https://www.oic.qld.gov.au/guidelines/for-government/guidelines-privacy-principles/applying-the-privacy-principles/dataset-publication-and-privacy">Dataset publication and privacy</a> by the Queensland Office of the Information Commissioner.</li>
+ 	<li><a href="https://www.data.vic.gov.au/policy-and-standards">DataVic Access Policy Guidelines for the Victorian public sector</a> by the Victorian Department of Treasury and Finance.</li>
+ 	<li><a href="http://government.archives.sa.gov.au/sites/default/files/20150703%20Privacy%20and%20Open%20Data%20Guideline%20Final%20V1.2.pdf">Privacy and Open Data Guideline</a> by the Privacy Committee of South Australia.</li>
+</ul>
+</div>
+<div class="note" id="privacyLaw">
 <div class="note-title">Privacy Laws</div>
 In Australia, privacy laws do not bind everyone. For example:
 <ul>
@@ -48,47 +70,20 @@ These resources may assist you to address other elements of data sensitivity:
  	<li><a href="http://ands.org.au/guides/sensitivedata.html" target="_blank">Ethics, consent and data sharing</a> by the Australian National Data Service (ANDS).</li>
 </ul>
 </div>
-<hr id="dataPersonal" />
 
-&nbsp;
-<h2><strong>1. Is this data about people or their activities?</strong></h2>
-<h5>No, the data is not about people or their activities</h5>
-Data that is not about people or their activies is not subject to Privacy law. Check that your data is not another type of <a href="#sensitiveData">sensitive data</a>.
-<p align="right"><a href="http://queensland.theodi.org/home/services/certificates/help/positive-ending/">Next: End of Legal Questions</a></p>
-
-<h5>Yes, the data is about people or their activities</h5>
-<p align="right"><a title="Has the data about individuals been de-identified?" href="#dataDeidentified">Next: Question 2</a></p>
-
-<div class="note">
-<div class="note-title">Personal Information Resources</div>
-These Guides help you determine if the data is personal information:
-<ul>
- 	<li><a href="https://www.oic.qld.gov.au/guidelines/for-government/guidelines-privacy-principles/applying-the-privacy-principles/dataset-publication-and-privacy">Dataset publication and privacy</a> by the Queensland Office of the Information Commissioner.</li>
- 	<li><a href="https://www.data.vic.gov.au/policy-and-standards">DataVic Access Policy Guidelines for the Victorian public sector</a> by the Victorian Department of Treasury and Finance.</li>
- 	<li><a href="http://government.archives.sa.gov.au/sites/default/files/20150703%20Privacy%20and%20Open%20Data%20Guideline%20Final%20V1.2.pdf">Privacy and Open Data Guideline</a> by the Privacy Committee of South Australia.</li>
-</ul>
-</div>
-
-<hr id="dataDeidentified" />
-
-&nbsp;
-<h2><strong>2. Has the data about individuals been de-identified?</strong></h2>
-<h5>Yes, the data has been de-identified.</h5>
+<h2 class="question" id="dataDeidentified" >2. Has the data about individuals been de-identified?</h2>
+<h3 class="answer">Yes, the data has been de-identified.</h3>
 De-identification techniques such as aggregation, data masking, pseudonymisation, and reducing the precision of information can reduce the risk of individuals being identified in the data.
-<p align="right"><a title="Has your de-identification process been independently audited?" href="#dataDeidentifiedAudited">Next: Question 3</a></p>
-
-<h5>No, it contains data that could identify individuals.</h5>
-Individual identities are visible in the data or could be reasonably ascertained through cross-referencing with other available information.
-<p align="right"><a title="Are you required or permitted by law to publish this personal data online?" href="#lawfulDisclosure">Next: Question 4</a></p>
-
-<div class="ednote">
-<div class="ednote-title">Editor's note</div>
-Should we reword the question to, "Have you attempted to reduce or remove the possibility of individuals being identified?".
-<ul>
- 	<li>This would align the wording with the UK certificate</li>
- 	<li>Use less technical language.</li>
-</ul>
+<div class="next">
+<a title="Has your de-identification process been independently audited?" href="#dataDeidentifiedAudited">Next: Question 3</a>
 </div>
+
+<h3 class="answer">No, it contains data that could identify individuals.</h3>
+Individual identities are visible in the data or could be reasonably ascertained through cross-referencing with other available information.
+<div class="next">
+<a  title="Are you required or permitted by law to publish this personal data online?" href="#lawfulDisclosure">Next: Question 4</a></p>
+</div>
+
 
 <div class="note">
 <div class="note-title">Data De-identification Resources</div>
@@ -102,36 +97,36 @@ These Guides describe how you may be able to publish the data if you can de-iden
 </ul>
 </div>
 
-<hr id="dataDeidentifiedAudited" />
-
-&nbsp;
-<h2><strong>3. Has your de-identification process been independently audited?</strong></h2>
-<h5>Yes</h5>
+<h2 class="question" id="dataDeidentifiedAudited" >3. Has your de-identification process been independently audited?</h2>
+<h3 class="answer">Yes</h3>
 words
-<p align="right"><a title="Have you assessed the privacy risks of publishing this data?" href="#riskAssessment">Next: Question 6</a></p>
-
-<h5>No</h5>
+<div class="next">
+<a  title="Have you assessed the privacy risks of publishing this data?" href="#riskAssessment">Next: Question 6</a>
+</div>
+<h3 class="answer">No</h3>
 words
-<p align="right"><a title="Have you assessed the privacy risks of publishing this data?" href="#riskAssessment">Next: Question 6</a></p>
+<div class="next">
+<a  title="Have you assessed the privacy risks of publishing this data?" href="#riskAssessment">Next: Question 6</a>
+</div>
 
-<hr id="lawfulDisclosure" />
-
-&nbsp;
-<h2><strong>4. Are you required or permitted by law to publish this personal data online?</strong></h2>
+<h2 class="question" id="lawfulDisclosure" >4. Are you required or permitted by law to publish this personal data online?</h2>
 
 You may be able to publish data about individuals online if, either:
 <ul>
  	<li>the data is required or permitted to be published by law</li>
  	<li>you have permission from the affected individuals.</li>
 </ul>
-<h5>Yes</h5>
+<h3 class="answer">Yes</h3>
 If permission is not granted by all individuals, you should inform data re-users that the dataset is incomplete.
-<p align="right"><a title="Where do you document your right to publish data about individuals?" href="#lawfulDisclosureURL">Next: Question 5</a></p>
+<div class="next">
+<a title="Where do you document your right to publish data about individuals?" href="#lawfulDisclosureURL">Next: Question 5</a>
+</div>
 
-<h5>No</h5>
+<h3 class="answer">No</h3>
 You should only publish personal data without de-identification if you are required or permitted to do so by law or the affected individuals have granted permission.
-<p align="right"><a href="http://queensland.theodi.org/home/services/certificates/help/negative-ending/">Next: End of Legal Questions</a></p>
-
+<div class="next">
+<a  href="http://queensland.theodi.org/home/services/certificates/help/negative-ending/">Next: End of Legal Questions</a></p>
+</div>
 <div class="note">
 <div class="note-title">Individual Constent Resources</div>
 Guides to help you ask for individual consent:
@@ -141,13 +136,13 @@ Guides to help you ask for individual consent:
 </ul>
 </div>
 
-<hr id="lawfulDisclosureURL" />
 
-&nbsp;
-<h2><strong>5. Where do you document your right to publish this data?</strong></h2>
+<h2 class="question" id="lawfulDisclosureURL" >5. Where do you document your right to publish this data?</h2>
 Provide a URL to the law or individual permission that allows you to publish this data about individuals.
-<h5>Disclosure Rationale URL</h5>
-<p align="right"><a title="" href="http://queensland.theodi.org/home/services/certificates/help/positive-ending/">Next: End of Legal Questions</a></p>
+<h3 class="answer">Disclosure Rationale URL</h3>
+<div class="next">
+<a  title="" href="http://queensland.theodi.org/home/services/certificates/help/positive-ending/">Next: End of Legal Questions</a></p>
+</div>
 
 <div class="note">
 <div class="note-title">Reference the Law</div>
@@ -157,12 +152,12 @@ To help people use the data with confidence, in the data description or document
   <li>a reference to the clause in the law that permits the data publication
   <li>a hyperlink to the law or clause within the law.
 </ul>
-<div>
+</div>
 
 <div class="example">
 <div class="example-title">Example reference</div>
 The xyz data is required to be published by the <a href="">abc Act 1999</a> as stated in <a href="">clause 1.2.3</a>.
-<div>
+</div>
 
 <div class="note">
 <div class="note-title">Examples of laws that may permit you to publish personal data</div>
@@ -178,8 +173,8 @@ A number of laws may permit you to publish personal data, including:
 </ul>
 </div>
 
-<div class="ed-note">
-<div class="ed-note-title">Reference Individual Constent</div>
+<div class="note">
+<div class="note-title">Reference Individual Constent</div>
 Guides to help you show you have consent from affected individuals to publish the data.
 <ul>
  	<li>A government agency conducts a survey concerning its services.</li>
@@ -189,18 +184,17 @@ Guides to help you show you have consent from affected individuals to publish th
 </ul>
 </div>
 
-
-
-<hr id="riskAssessment" />
-
-&nbsp;
-<h2><strong>6. Have you assessed the privacy risks of publishing this data?</strong></h2>
+<h2 class="question" id="riskAssessment" >6. Have you assessed the privacy risks of publishing this data?</h2>
 You should assess the likelihood of personal data being disclosed and the consequences to individuals of the disclosure.
-<h5>Yes</h5>
-<p align="right"><a title="Where is your risk assessment published?" href="#riskAssessmentURL">Next: Question 7</a></p>
+<h3 class="answer">Yes</h3>
+<div class="next">
+<a title="Where is your risk assessment published?" href="#riskAssessmentURL">Next: Question 7</a>
+</div>
 
-<h5>No</h5>
-<p align="right"><a title="Are you prepared to respond if publishing this data compromises the privacy of individuals?" href="#breachPrepared">Next: Question 9</a></p>
+<h3 class="answer">No</h3>
+<div class="next">
+<a title="Are you prepared to respond if publishing this data compromises the privacy of individuals?" href="#breachPrepared">Next: Question 9</a>
+</div>
 
 <div class="note">
 <div class="note-title">Risk Assessment Resources</div>
@@ -211,41 +205,37 @@ Guides to help you assess the risk of a possible privacy breach:
 </ul>
 </div>
 
-
-
-<hr id="riskAssessmentURL" />
-
-&nbsp;
-<h2><strong>7. Where is your risk assessment published?</strong></h2>
+<h2 class="question"id=" riskAssessmentURL">7. Where is your risk assessment published?</h2>
 Provide a URL to where people can check how you have assessed the privacy risks to individuals.
-<h5>Risk Assessment URL</h5>
-<p align="right"><a title="Has your privacy risk assessment been independently audited?" href="#iskAssessmentAuditied">Next: Question 8</a></p>
+<h3 class="answer">Risk Assessment URL</h3>
+<div class="next">
+<a title="Has your privacy risk assessment been independently audited?" href="#iskAssessmentAuditied">Next: Question 8</a>
+</div>
 
+<h2 class="question"  id="riskAssessmentAudited">8. Has your privacy risk assessment been independently audited?</h2>
+<h3 class="answer">Yes</h3>
+<div class="next">
+<a title="Are you prepared to respond if publishing this data compromises the privacy of individuals?" href="#breachPrepared">Next: Question 9</a>
+</div>
 
-<hr id="riskAssessmentAudited" />
+<h3 class="answer">No</h3>
+<div class="next">
+<a  title="Are you prepared to respond if publishing this data compromises the privacy of individuals?" href="#breachPrepared">Next: Question 9</a>
+</div>
 
-&nbsp;
-<h2><strong>8. Has your privacy risk assessment been independently audited?</strong></h2>
-<h5>Yes</h5>
-words
-<p align="right"><a title="Are you prepared to respond if publishing this data compromises the privacy of individuals?" href="#breachPrepared">Next: Question 9</a></p>
-
-<h5>No</h5>
-words
-<p align="right"><a title="Are you prepared to respond if publishing this data compromises the privacy of individuals?" href="#breachPrepared">Next: Question 9</a></p>
-
-
-<hr id="breachPrepared" />
-
-&nbsp;
-<h2><strong>9. Are you prepared to respond if publishing this data compromises the privacy of individuals?</strong></h2>
+<h2 class="question" id="breachPrepared" >9. Are you prepared to respond if publishing this data compromises the privacy of individuals?</h2>
 Have you documented the steps you will take in the event of a privacy breach?
-<h5>Yes</h5>
-<p align="right"><a title="" href="http://queensland.theodi.org/home/services/certificates/help/positive-ending/">Next: End of Legal Questions</a></p>
 
-<h5>No</h5>
+<h3 class="answer">Yes</h3>
+<div class="next">
+<a href="http://queensland.theodi.org/home/services/certificates/help/positive-ending/">Next: End of Legal Questions</a>
+</div>
+
+<h3 class="answer">No</h3>
 You should document the steps you will take in the event of a privacy breach
-<p align="right"><a title="" href="http://queensland.theodi.org/home/services/certificates/help/positive-ending/">Next: End of Legal Questions</a></p>
+<div class="next">
+<a  href="http://queensland.theodi.org/home/services/certificates/help/positive-ending/">Next: End of Legal Questions</a>
+</div>
 
 <div class="note">
 <div class="note-title">Private Breach Resources</div>

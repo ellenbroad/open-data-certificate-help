@@ -1,8 +1,3 @@
-/*
-Welcome to Custom CSS!
-
-To learn how this works, see http://wp.me/PEmnE-Bt
-*/
 @media print {
 	#colophon, #footer-widgets, .navbar-right, .menu-menu-1-container, #nav-below, #pgc-176-0-1, #panel-7-3-0-0, .youtube-player, .fluid-width-video-wrapper, #main-slider {
 		display: none;
@@ -82,12 +77,42 @@ div.quote {
 	font-family: serif;
 }
 
-/* narrow top menu*/
+.question {
+	margin-top: 2em !important;
+	color: #333 !important;
+}
+
+.answer {
+	color: #333 !important;
+	font-size: 1.2em !important;
+}
+
+div.next {
+	text-align: right;
+}
+
+div.next a {
+	color: #000 !important;
+	background-color: #D3D3D3;
+	border: none;
+	border-radius: 8px;
+	padding: 7px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: .5em;
+	margin-bottom: 1em;
+}
+
 .main-navigation ul li a {
 	padding: 12px 29px;
 }
 
 .site-navigation {
 	background: #f9f9f9;
-	border-bottom: 1px solid #dddddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.breadcrumb {
+	font-size: 80%;
 }
