@@ -37,57 +37,6 @@ Repeated from the online questionnaire.
 
 Each question in the survey can contain a link to extra guidance found inside these help pages. This extra guidance is formatted to make it stand out from the elements copied from the questionnaire.
 
-
-## Formatting
-
-Each of the above components are formatted in a specific way. Examples are shown below. Some of these may appear strange from a normal html formatting approach but there are a set of constraints imposed by using a Wordpress site that we don't have full administration rights to.
-
-### Question text
-
-This text should match the online questionnaire.
-
-Add a horizontal line with an id so when the internal link is followed the Question text appears at the top of the page.
-Add strong to `<h2>` (see [#1](https://github.com/ODIQueensland/open-data-certificate-help/issues/1))
-
-    <hr id="publisherrights" />
-    &nbsp;
-    <h2><strong>1. Do you have the rights to publish this data as open data?</strong></h2>
-
-### Question description
-
-This text should match the online questionnaire. The text doesn't need to be wrapped in `<p> </p>` as Wordpress applies these automatically. Add links to the glossary as required.
-
-    You should have a clear legal <a href="/glossary#rights">right</a> to publish this data. If your organisation didn't originally create or gather this data then you might not have the right to publish it. If you’re not sure, check with the <a href="/glossary#rights-holder">rights holder</a> (owner) because you will need their permission to publish it.
-
-### Answer text
-(see [#2](https://github.com/ODIQueensland/open-data-certificate-help/issues/2))
-
-    <h5>Yes</h5>
-
-### Answer description
-
-    You have the right to publish the data as open data if you collected all the data yourself.
-
-### What question is asked next
-
-The `title` is the wording of the next question.
-
-    <p align="right"><a title="Was all this data originally created or gathered by you?" href="#publisherorigins">Next: Question 2</a></p>
-
-### Help text
-
-This is the text that provides the extra help or links to resources. There are some different classes that adjust the formatting:
-
-- `note` and `note-title` are used to wrap the text in a green box
-- `example` and `example-title` are used to wrap the text in a yellow box
-- `warning` and `warning-title` are used to wrap the text in a red box
-
-    <div class="note">
-    <div class="note-title">Note</div>
-    If you are unsure, the Open Data Certificate questionnaire will lead you through a series of questions to help you determine if you have the rights to publish this data. It will ask if all the data was gathered by you and if not, what were the sources of the data and if they are openly licensed.
-
-    </div>
-
 ## The questionnaire
 
 The Australian questionnaire is being drafted at https://github.com/Stephen-Gates/open-data-certificate/blob/staging/prototype/jurisdictions/certificate.AU.xml
