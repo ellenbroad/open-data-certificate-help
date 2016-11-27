@@ -17,7 +17,7 @@
 	}
 }
 
-/* W3c style callout boxes */
+/* W3c style callout boxes for odc help */
 div.example {
 	padding: .5em;
 	border-left-width: .5em;
@@ -77,6 +77,7 @@ div.quote {
 	font-family: serif;
 }
 
+/* odc help */
 .question {
 	margin-top: 2em !important;
 	color: #333 !important;
@@ -87,8 +88,13 @@ div.quote {
 	font-size: 1.2em !important;
 }
 
+/* next button */
 div.next {
 	text-align: right;
+}
+
+div.left-button {
+	text-align: left;
 }
 
 div.next a {
@@ -104,6 +110,20 @@ div.next a {
 	margin-bottom: 1em;
 }
 
+div.left-button a {
+	color: #000 !important;
+	background-color: #D3D3D3;
+	border: none;
+	border-radius: 8px;
+	padding: 7px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: .5em;
+	margin-bottom: 1em;
+}
+
+/* status labels */
 .alpha {
 	color: #ffffff !important;
 	background-color: #d60303;
@@ -130,6 +150,7 @@ div.next a {
 	margin-bottom: 1em;
 }
 
+/* navigation tweaks */
 .site-navigation {
 	background: #f9f9f9;
 	border-bottom: 1px solid #ddd;
