@@ -151,6 +151,10 @@ div.left-button a {
 }
 
 /* navigation tweaks */
+.main-navigation ul li a {
+	padding: 12px 20px;
+}
+
 .site-navigation {
 	background: #f9f9f9;
 	border-bottom: 1px solid #ddd;
